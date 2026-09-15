@@ -130,7 +130,7 @@ Other configurations may work, but they have not necessarily been tested.
 The transmitter uses:
 
 ```text
-64-bit Linux
+Debian 12 (Bookworm)
 GNU Radio
 gr-dvbs2
 FFmpeg
