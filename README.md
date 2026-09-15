@@ -364,6 +364,7 @@ wait "${TX_PID}"
 Make it executable:
 
 ```bash
+mkdir data
 chmod +x *.sh
 chmod +x *.py
 ```
