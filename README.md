@@ -11,6 +11,21 @@ A simple, low-cost experimental **H.265 / HEVC DVB-S2 transmitter** using:
 - Pluto / Pluto Plus
 - Logitech C920
 
+## Tested Environment
+
+- Orange Pi 3B
+- RK3566
+- Debian 12 (Bookworm)
+- GNU Radio
+- gr-dvbs2
+- ffmpeg-rockchip
+- Rockchip MPP / RKMPP
+- Analog Devices PlutoSDR
+- Logitech C920
+
+
+
+This project has been tested on Orange Pi 3B running Debian 12 (Bookworm).
 The goal of this project is simple:
 
 > Build an affordable and reproducible H.265 DATV transmitter using a general-purpose SBC and open-source software.
