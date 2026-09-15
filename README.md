@@ -364,7 +364,8 @@ wait "${TX_PID}"
 Make it executable:
 
 ```bash
-chmod +x h265_tx.sh
+chmod +x *.sh
+chmod +x *.py
 ```
 
 ---
