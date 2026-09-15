@@ -682,7 +682,6 @@ README.md
 LICENSE
 h265_tx.sh
 RF_FIFO_dvbs2_experiment.py
-RF_FIFO_dvbs2_experiment.grc
 ```
 
 Optional files may include:
