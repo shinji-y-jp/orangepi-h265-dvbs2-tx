@@ -47,13 +47,13 @@ echo "OSR     = ${OSR}"
     -loglevel warning \
     -f v4l2 \
     -input_format h264 \
-    -video_size 800x448 \
-    -framerate 15 \
+    -video_size 1600x896 \
+    -framerate 5 \
     -i "${CAM}" \
     -c:v hevc_rkmpp \
-    -b:v 300k \
+    -b:v 350k \
     -an \
-    -muxrate 505k \
+    -muxrate 500k \
     -muxdelay 0 \
     -muxpreload 0 \
     -fflags +genpts \
